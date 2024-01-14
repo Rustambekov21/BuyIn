@@ -1,0 +1,44 @@
+::after, ::before, * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol ,li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    background: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    margin: 3px;
+    padding: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

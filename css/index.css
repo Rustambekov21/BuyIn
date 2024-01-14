@@ -1,0 +1,189 @@
+.sport {
+  padding: 140px 50px 63px 50px;
+}
+.sport-top {
+  margin-bottom: 30px;
+}
+.sport-loc {
+  color: #767676;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+.sport-titles {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 13px;
+}
+.sport-title {
+  color: #3C3C3C;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: normal;
+}
+.sport-text {
+  color: #797979;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+.sport-btn__list {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+.sport-menu {
+  max-width: 208px;
+  min-width: 208px;
+}
+.sport-main {
+  padding: 0 50px;
+  display: flex;
+  gap: 11px;
+  flex-wrap: wrap;
+}
+.sport-img {
+  margin: 0 auto;
+  width: 150px;
+  height: 90px;
+  margin-block: 40px;
+}
+.sport-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sport-link:hover {
+  color: #000;
+}
+.sport-card {
+  background: #FFF;
+  padding: 14px 19px;
+  border-radius: 10px;
+}
+.sport-card__title {
+  max-width: 190px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  margin-block: 20px 8px;
+}
+.sport-price {
+  margin-bottom: 26px;
+}
+.sport-btn {
+  margin-bottom: 54px;
+}
+
+.sport-menu__order {
+  margin-bottom: 15px;
+}
+
+.order-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.order-title {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+}
+.order-period__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sport-menu__brend {
+  margin-bottom: 15px;
+}
+
+.menu-brend__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.brend-link {
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+.sport-menu__size {
+  margin-bottom: 15px;
+}
+
+.menu-size__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sport-menu__color {
+  margin-bottom: 15px;
+}
+
+.menu-color__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.w {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
+}
+
+.green {
+  background: green;
+}
+
+.pink {
+  background: pink;
+}
+
+.aqua {
+  background: aqua;
+}
+
+.black {
+  background: black;
+}
+
+.orange {
+  background: orange;
+}
+
+.purple {
+  background: purple;
+}
+
+.dark-green {
+  background: darkgreen;
+}
+
+.price-slider {
+  margin-bottom: 10px;
+}
+
+.price-btns {
+  display: flex;
+  gap: 3px;
+}/*# sourceMappingURL=index.css.map */

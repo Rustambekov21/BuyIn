@@ -1,0 +1,15 @@
+.header-top {
+    background: $HeaderTopBg;
+    padding: 10px 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.location {
+    color: white;
+}

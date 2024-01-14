@@ -1,0 +1,101 @@
+.header-menu {
+    padding: 17px 50px;
+    background: #FFF;
+    padding-top: 65px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    &__logo {
+        width: 82px;
+        height: 36px;
+        background: $HeaderTopBg;
+        border-top-right-radius: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: normal;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__layout {
+        cursor: pointer;
+        width: 160px;
+        height: 36px;
+        background: $HeaderTopBg;
+        border-top-right-radius: 20px;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+    &__layout:hover {
+        background: $BgHover;
+    }
+    &__search {
+        background: $HeaderTopBg;
+        border-radius: 10px;
+        padding: 6px 19px;
+        display: flex;
+        align-items: center;
+        border: none;
+    }
+    &__search:hover {
+        background: $BgHover;
+    }
+    &__list {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__button {
+        border: none;
+        background: $HeaderTopBg;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        padding: 3px 13px 3px 3px;
+        color: #FFF;
+    }
+    &__button:hover {
+        background: $BgHover;
+    }
+    &__link {
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        svg {
+            path {
+                opacity: 1;
+            }
+        }
+    }
+    &__link:hover {
+        svg {
+            path {
+                stroke: #69b1ff;
+                transition: 0.3s;
+            }
+        }
+    }
+}
+
+.header-logo {
+    cursor: pointer;
+    gap: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 456px;
+}
