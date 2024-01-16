@@ -73,12 +73,8 @@ export const FullRoute = [
         path: "/kitchen",
         element: <KitchenPage/>
     },
-]
-
-
-export const SportCards = [
     {
-        id: 1,
+        id: 14,
         path: "/trainers",
         element: <Trainers/>
     }

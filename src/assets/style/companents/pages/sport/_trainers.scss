@@ -1,0 +1,92 @@
+.trainers {
+    padding: 140px 50px 0px 50px;
+    &-top {
+        margin-bottom: 23px;
+    }
+    &-loc {
+        color: #767676;
+        padding-bottom: 30px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &-title {
+        color: #3c3c3c;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    &-raiting {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        &__text {
+            font-size: 10px;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    &-header {
+        display: flex;
+        gap: 60px;
+        &__menu_btn {
+            border-radius: 50%;
+            border: none;
+            margin-block: 20px;
+            margin-left: 20px;
+        }
+        &__menu_imgBtn {
+            background: #fff;
+            border: 0.5px solid #c8c8c8;
+            border-radius: 10px;
+            padding: 0 5px;
+            width: 53px;
+            height: 47px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        &__menu_miniImg {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        &__img {
+            width: 220px;
+            height: 130px;
+            background: #EBEBEB;
+            margin: 0 auto;
+            margin-top: 170px;            
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &__info {
+            &_color {
+                display: flex;
+                gap: 15px;
+            }
+            &_list {
+                display: flex;
+                gap: 15px;
+            }
+        }
+    }
+}
+
+.img-bg {
+    background: #EBEBEB;
+    width: 439px;
+    height: 486px;
+    border-radius: 10px;
+}
+
+.header-imgs {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
